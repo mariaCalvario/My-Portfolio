@@ -1,8 +1,7 @@
-h1 {
+.hero {
   font-family: "Poppins", sans-serif;
 }
 
-.github-icon {
-  font-size: 60px;
-  color: mediumslateblue;
+h1 {
+  font-family: "Nothing You Could Do", cursive;
 }
