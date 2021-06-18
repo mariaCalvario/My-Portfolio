@@ -1,10 +1,18 @@
+:root {
+  --primary-color: #e6e6e6;
+  --secondary-color: #fcb69a;
+  --hover-color: #f8a488;
+  --heading-font-family: "Nothing You Could Do", cursive;
+  --body--font-family: "Poppins", sans-serif;
+}
+
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--body--font-family);
 }
 
 .hero {
   text-align: center;
-  background-color: #e6e6e6;
+  background-color: var(--primary-color);
   padding: 75px 0;
 }
 
@@ -13,7 +21,7 @@ body {
 }
 
 .hero h1 {
-  font-family: "Nothing You Could Do", cursive;
+  font-family: var(--heading-font-family);
   font-size: 70px;
 }
 
@@ -28,9 +36,9 @@ h1:hover {
 
 .primary-button {
   font-size: 16px;
-  font-weight: 350;
-  color: #555555;
-  background-color: #eec4c4;
+  font-weight: 480;
+  color: white;
+  background-color: var(--secondary-color);
   text-decoration: none;
   border-radius: 10px;
   padding: 15px 20px;
@@ -38,6 +46,6 @@ h1:hover {
 }
 
 .primary-button:hover {
-  color: #555555;
-  background-color: #d9adad;
+  background-color: var(--hover-color);
+  color: white;
 }
