@@ -22,6 +22,11 @@
       crossorigin="anonymous"
     ></script>
     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <script async src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
+    <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
       rel="stylesheet"
     />
@@ -31,10 +36,20 @@
     />
   </head>
   <body>
-    <div class="hero text-center">
-      <p>Hey, I'm</p>
+    <div class="hero">
+      <p>hey, I'm</p>
       <h1>Maria Calvário</h1>
-      <h2>Front-end developer based in Lisbon</h2>
+      <h2 class="mb-5">
+        <span
+          class="typer"
+          id="main"
+          data-words="front-end developer, based in Lisbon"
+          data-delay="100"
+          data-deleteDelay="1000"
+        ></span>
+        <span class="cursor" data-owner="main"></span>
+      </h2>
+      <a href="#" class="primary-button shadow">CONTACT ME</a>
     </div>
   </body>
 </html>
