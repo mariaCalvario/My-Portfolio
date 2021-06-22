@@ -63,8 +63,8 @@ body {
 }
 
 .primary-button:hover {
-  background-color: var(--hover-color);
-  color: white;
+  color: var(--hover-color);
+  background-color: white;
 }
 
 .coding-projects {
@@ -90,12 +90,17 @@ footer {
 }
 
 .footer-icons {
-  color: var(--secondary-color);
-  font-size: 46px;
+  color: white;
+  background-color: var(--secondary-color);
+  font-size: 22px;
   text-decoration: none;
   margin: 0 20px;
+  border-radius: 50%;
+  padding: 7px 13px;
+  transition: all 200ms ease-in-out;
 }
 
 .footer-icons:hover {
   color: var(--hover-color);
+  background-color: white;
 }
