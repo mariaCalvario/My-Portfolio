@@ -83,3 +83,19 @@ body {
   transform: scale(1.05);
   transition: all 150ms ease-in-out;
 }
+
+footer {
+  background-color: var(--primary-color);
+  padding: 30px 0;
+}
+
+.footer-icons {
+  color: var(--secondary-color);
+  font-size: 46px;
+  text-decoration: none;
+  margin: 0 20px;
+}
+
+.footer-icons:hover {
+  color: var(--hover-color);
+}
