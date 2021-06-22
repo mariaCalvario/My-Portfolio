@@ -10,6 +10,10 @@ body {
   font-family: var(--body-font-family);
 }
 
+.navbar {
+  background-color: #e6e6e6;
+}
+
 .navbar-brand {
   font-family: var(--heading-font-family);
   font-weight: bold;
@@ -17,17 +21,13 @@ body {
 
 .navbar-brand:hover,
 .nav-link:hover,
-h1:hover {
+.hero h1:hover {
   animation: pulse 1.5s;
 }
 
 .nav-link {
   font-size: 18px;
   margin-left: 15px;
-}
-
-.nav-link:hover {
-  color: var(--secondary-color);
 }
 
 .hero {
@@ -70,4 +70,9 @@ h1:hover {
 .container h3 {
   font-size: 36px;
   font-weight: 300;
+}
+
+img:hover {
+  transform: scale(1.05);
+  transition: all 200ms ease-in-out;
 }
