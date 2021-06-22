@@ -21,7 +21,8 @@ body {
 
 .navbar-brand:hover,
 .nav-link:hover,
-.hero h1:hover {
+.hero h1:hover,
+.code-proj:hover {
   animation: pulse 1.5s;
 }
 
@@ -64,15 +65,21 @@ body {
 .primary-button:hover {
   background-color: var(--hover-color);
   color: white;
-  padding: 16px 21px;
 }
 
-.container h3 {
-  font-size: 36px;
+.coding-projects {
+  color: black;
+  font-size: 40px;
   font-weight: 300;
+  text-decoration: none;
 }
 
-img:hover {
+.coding-projects:hover {
+  color: black;
+  font-style: italic;
+}
+
+.homepage-images:hover {
   transform: scale(1.05);
-  transition: all 200ms ease-in-out;
+  transition: all 150ms ease-in-out;
 }
