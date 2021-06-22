@@ -10,6 +10,26 @@ body {
   font-family: var(--body-font-family);
 }
 
+.navbar-brand {
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+}
+
+.navbar-brand:hover,
+.nav-link:hover,
+h1:hover {
+  animation: pulse 1.5s;
+}
+
+.nav-link {
+  font-size: 18px;
+  margin-left: 15px;
+}
+
+.nav-link:hover {
+  color: var(--secondary-color);
+}
+
 .hero {
   background-color: var(--primary-color);
   text-align: center;
@@ -23,10 +43,6 @@ body {
 .hero h1 {
   font-family: var(--heading-font-family);
   font-size: 70px;
-}
-
-h1:hover {
-  animation: pulse 1.5s;
 }
 
 .hero h2 {
@@ -48,4 +64,10 @@ h1:hover {
 .primary-button:hover {
   background-color: var(--hover-color);
   color: white;
+  padding: 16px 21px;
+}
+
+.container h3 {
+  font-size: 36px;
+  font-weight: 300;
 }
