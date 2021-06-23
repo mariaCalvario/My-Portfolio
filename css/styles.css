@@ -19,6 +19,7 @@ body {
 .nav-link {
   font-size: 18px;
   margin-left: 15px;
+  color: black;
 }
 
 .hero {
@@ -64,7 +65,8 @@ body {
   color: black;
 }
 
-.coding-projects:hover {
+.coding-projects:hover,
+.here:hover {
   font-style: italic;
   color: black;
 }
@@ -72,6 +74,20 @@ body {
 .homepage-images:hover {
   transform: scale(1.05);
   transition: all 150ms ease-in-out;
+}
+
+.more-projects {
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.here {
+  text-decoration: none;
+  color: black;
+}
+
+.here:hover {
+  transition: all 200ms ease-in-out;
 }
 
 footer {
