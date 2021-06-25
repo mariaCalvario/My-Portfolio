@@ -61,14 +61,18 @@ body {
   background-color: white;
 }
 
-.coding-projects {
+.coding-projects-link {
   font-size: 40px;
   font-weight: 300;
   text-decoration: none;
   color: black;
 }
 
-.coding-projects:hover,
+.coding-projects {
+  margin-bottom: 90px;
+}
+
+.coding-projects-link:hover,
 .here-link:hover {
   font-style: italic;
   color: black;
@@ -95,7 +99,7 @@ body {
 
 footer {
   background-color: var(--primary-color);
-  padding: 20px 0;
+  padding: 20px;
 }
 
 .footer-icons {
@@ -132,9 +136,66 @@ footer {
 .navbar-brand:hover,
 .nav-link:hover,
 .hero h1:hover,
-.code-proj:hover {
+.coding-projects:hover {
   animation: pulse 1.5s;
 }
 
-@media (max) {
+@media (max-width: 576px) {
+  .nav-link {
+    font-size: 16px;
+  }
+  .nav-link:hover {
+    animation: none;
+  }
+  .hero p {
+    font-size: 28px;
+  }
+  .hero h1 {
+    font-size: 50px;
+  }
+
+  .hero h2 {
+    font-size: 22px;
+  }
+  .hero {
+    padding: 52px;
+  }
+  .coding-projects-link {
+    font-size: 33px;
+  }
+  .coding-projects {
+    margin-bottom: 13px;
+  }
+  .more-projects {
+    font-size: 22px;
+  }
+  .footer-icons {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-link {
+    font-size: 16px;
+    margin-left: 25px;
+  }
+  .nav-link:hover {
+    animation: none;
+  }
+
+  .coding-projects {
+    margin-bottom: 50px;
+  }
+  .more-projects {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 992px) {
+  .nav-link:hover {
+    animation: none;
+  }
+  .coding-projects {
+    margin-bottom: 80px;
+  }
 }
