@@ -140,13 +140,17 @@ footer {
   animation: pulse 1.5s;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .nav-link {
     font-size: 16px;
+    margin-left: 25px;
   }
   .nav-link:hover {
     animation: none;
   }
+}
+
+@media (max-width: 576px) {
   .hero p {
     font-size: 28px;
   }
@@ -174,28 +178,14 @@ footer {
   }
 }
 
-@media (max-width: 768px) {
-  .nav-link {
-    font-size: 16px;
-    margin-left: 25px;
+@media (min-width: 320px) and (max-width: 480px) {
+  .hero p {
+    font-size: 25px;
   }
-  .nav-link:hover {
-    animation: none;
+  .hero h1 {
+    font-size: 40px;
   }
-
-  .coding-projects {
-    margin-bottom: 50px;
-  }
-  .more-projects {
-    font-size: 22px;
-  }
-}
-
-@media (max-width: 992px) {
-  .nav-link:hover {
-    animation: none;
-  }
-  .coding-projects {
-    margin-bottom: 80px;
+  .hero h2 {
+    font-size: 20px;
   }
 }
