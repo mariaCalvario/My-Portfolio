@@ -70,7 +70,7 @@ body {
 }
 
 .coding-projects:hover,
-.here:hover {
+.here-link:hover {
   font-style: italic;
   color: black;
 }
@@ -85,12 +85,12 @@ body {
   font-weight: 300;
 }
 
-.here {
+.here-link {
   text-decoration: none;
   color: black;
 }
 
-.here:hover {
+.here-link:hover {
   transition: all 200ms ease-in-out;
 }
 
@@ -113,6 +113,21 @@ footer {
 .footer-icons:hover {
   color: var(--hover-color);
   background-color: white;
+}
+
+.footer-text {
+  color: #979797;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #979797;
+}
+
+.footer-link:hover {
+  color: var(--hover-color);
 }
 
 .navbar-brand:hover,
