@@ -1,7 +1,6 @@
 :root {
   --primary-color: #e6e6e6;
   --secondary-color: #fcb69a;
-  --hover-color: #f8a488;
   --heading-font-family: "Nothing You Could Do", cursive;
   --body-font-family: "Poppins", sans-serif;
 }
@@ -58,7 +57,7 @@ body {
 }
 
 .primary-button:hover {
-  color: var(--hover-color);
+  color: var(--secondary-color);
   background-color: white;
 }
 
@@ -111,7 +110,7 @@ footer {
 }
 
 .footer-icons:hover {
-  color: var(--hover-color);
+  color: var(--secondary-color);
   background-color: white;
 }
 
@@ -127,7 +126,7 @@ footer {
 }
 
 .footer-link:hover {
-  color: var(--hover-color);
+  color: var(--secondary-color);
 }
 
 .navbar-brand:hover,
