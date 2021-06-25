@@ -188,4 +188,7 @@ footer {
   .hero h2 {
     font-size: 20px;
   }
+  .coding-projects {
+    margin-bottom: 0;
+  }
 }
