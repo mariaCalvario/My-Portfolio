@@ -11,6 +11,10 @@ body {
   color: black;
 }
 
+.bg-light {
+  background-color: #e6e6e6 !important;
+}
+
 .navbar-brand {
   font-family: var(--heading-font-family);
   font-weight: bold;
@@ -92,7 +96,7 @@ body {
 
 footer {
   background-color: var(--primary-color);
-  padding: 30px 0;
+  padding: 20px 0;
 }
 
 .footer-icons {
@@ -116,4 +120,7 @@ footer {
 .hero h1:hover,
 .code-proj:hover {
   animation: pulse 1.5s;
+}
+
+@media (max) {
 }
