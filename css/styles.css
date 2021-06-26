@@ -155,7 +155,7 @@ footer {
   }
 }
 
-@media (max-width: 576px) and (orientation: landscape) {
+@media (max-width: 576px) {
   .hero p {
     font-size: 28px;
   }
@@ -190,7 +190,6 @@ footer {
   .nav-link {
     font-size: 14px;
   }
-
   .hero p {
     font-size: 20px;
   }
@@ -202,7 +201,7 @@ footer {
     font-size: 20px;
   }
   .hero {
-    padding: 25px;
+    padding: 30px;
   }
   .primary-button {
     font-size: 14px;
@@ -227,6 +226,6 @@ footer {
     display: none;
   }
   footer {
-    padding: 10px;
+    padding: 12px;
   }
 }
