@@ -145,7 +145,7 @@ footer {
   animation: pulse 1.5s;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .nav-link {
     font-size: 16px;
     margin-left: 25px;
@@ -153,9 +153,6 @@ footer {
   .nav-link:hover {
     animation: none;
   }
-}
-
-@media (max-width: 576px) {
   .hero p {
     font-size: 28px;
   }
@@ -183,6 +180,24 @@ footer {
   }
 }
 
+@media (min-width: 577px) and (max-width: 992px) {
+  .nav-link:hover {
+    animation: none;
+  }
+  .hero p {
+    font-size: 28px;
+  }
+  .hero h1 {
+    font-size: 50px;
+  }
+
+  .hero h2 {
+    font-size: 22px;
+  }
+  .hero {
+    padding: 52px;
+  }
+}
 @media (min-width: 320px) and (max-width: 480px) {
   .navbar-brand {
     font-size: 20px;
@@ -227,5 +242,49 @@ footer {
   }
   footer {
     padding: 12px;
+  }
+}
+
+@media (max-width: 318px) {
+  .navbar-brand {
+    font-size: 15px;
+  }
+  .nav-link {
+    font-size: 12px;
+  }
+  .hero p {
+    font-size: 15px;
+  }
+  .hero h1 {
+    font-size: 28px;
+    line-height: 1;
+  }
+  .hero h2 {
+    font-size: 16px;
+  }
+  .hero {
+    padding: 30px;
+  }
+  .primary-button {
+    font-size: 11px;
+    padding: 10px 12px;
+  }
+  .contact-button {
+    margin-top: 25px;
+  }
+  .coding-projects-link {
+    font-size: 23px;
+  }
+  .more-projects {
+    font-size: 17px;
+  }
+  .footer-text {
+    display: none;
+  }
+  .footer-icons {
+    font-size: 14px;
+  }
+  footer {
+    padding: 9px;
   }
 }
