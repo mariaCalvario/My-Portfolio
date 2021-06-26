@@ -181,6 +181,10 @@ footer {
 }
 
 @media (min-width: 577px) and (max-width: 992px) {
+  .nav-link {
+    font-size: 16px;
+    margin-left: 25px;
+  }
   .nav-link:hover {
     animation: none;
   }
@@ -196,6 +200,9 @@ footer {
   }
   .hero {
     padding: 52px;
+  }
+  .coding-projects {
+    margin-bottom: 45px;
   }
 }
 @media (min-width: 320px) and (max-width: 480px) {
