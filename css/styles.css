@@ -147,40 +147,48 @@ footer {
   color: var(--secondary-color);
 }
 
+/*---animation---*/
 .navbar-brand:hover,
 .nav-link:hover,
 .hero h1:hover,
-.coding-projects:hover {
+.coding-projects:hover,
+.contact-header h4:hover {
   animation: pulse 1.5s;
 }
 
 /*-------------CONTACT PAGE-----------*/
-.contact-sector {
-  margin-top: 280px;
-  margin-bottom: 190px;
+.contact-header {
+  background-color: var(--primary-color);
+  padding: 80px 0;
 }
-
+.contact-header h4 {
+  font-family: var(--heading-font-family);
+  font-size: 60px;
+  text-align: center;
+}
+.contact-sector {
+  padding: 100px 0;
+}
 .contact-sector h1 {
   font-family: var(--body-font-family);
   text-align: center;
   font-size: 50px;
   font-weight: 100;
   text-align: right;
+  padding-top: 80px;
 }
-
 .contact-icon {
   font-size: 25px;
 }
-
 .contact-title {
   font-size: 23px;
   font-weight: 400;
 }
-
 .contact-link {
   font-weight: 300;
   text-decoration: none;
   color: black;
+  opacity: 50%;
 }
 
 /*-----@media queries-----*/
@@ -258,9 +266,7 @@ footer {
   .footer-icons {
     font-size: 16px;
   }
-  .footer-text {
-    display: none;
-  }
+
   footer {
     padding: 12px;
   }
