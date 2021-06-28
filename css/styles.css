@@ -5,6 +5,8 @@
   --body-font-family: "Poppins", sans-serif;
 }
 
+/*---------------HOMEPAGE--------------*/
+
 body {
   font-family: var(--body-font-family);
   color: black;
@@ -61,7 +63,8 @@ body {
   transition: all 200ms ease-in-out;
 }
 
-.primary-button:hover {
+.primary-button:hover,
+.contact-icon {
   color: var(--secondary-color);
   background-color: white;
 }
@@ -149,6 +152,35 @@ footer {
 .hero h1:hover,
 .coding-projects:hover {
   animation: pulse 1.5s;
+}
+
+/*-------------CONTACT PAGE-----------*/
+.contact-sector {
+  margin-top: 280px;
+  margin-bottom: 190px;
+}
+
+.contact-sector h1 {
+  font-family: var(--body-font-family);
+  text-align: center;
+  font-size: 50px;
+  font-weight: 100;
+  text-align: right;
+}
+
+.contact-icon {
+  font-size: 25px;
+}
+
+.contact-title {
+  font-size: 23px;
+  font-weight: 400;
+}
+
+.contact-link {
+  font-weight: 300;
+  text-decoration: none;
+  color: black;
 }
 
 /*-----@media queries-----*/
