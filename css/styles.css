@@ -17,9 +17,8 @@ body {
 }
 
 .navbar-brand {
-  font-size: 25px;
-  font-family: var(--heading-font-family);
-  font-weight: bold;
+  font-size: 22px;
+  opacity: 60%;
 }
 
 .nav-link {
@@ -45,7 +44,8 @@ body {
 
 .hero h2 {
   font-size: 24px;
-  font-weight: 100;
+  font-weight: 200;
+  opacity: 50%;
 }
 
 .contact-button {
