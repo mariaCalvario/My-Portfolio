@@ -166,7 +166,7 @@ footer {
   max-width: 450px;
 }
 .project-description {
-  padding: 60px 20px;
+  padding: 60px;
 }
 .project-title {
   font-size: 25px;
@@ -192,6 +192,7 @@ footer {
 }
 .contact-icon {
   font-size: 25px;
+  border: none;
 }
 .contact-title {
   font-size: 23px;
