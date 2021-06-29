@@ -89,7 +89,6 @@ footer {
 .navbar-brand:hover,
 .nav-link:hover,
 .hero h1:hover,
-.coding-projects:hover,
 .header h1:hover {
   animation: pulse 1.5s;
 }
@@ -117,7 +116,7 @@ footer {
 }
 .coding-projects-link {
   font-size: 40px;
-  font-weight: 300;
+  font-weight: 200;
   text-decoration: none;
   color: black;
 }
@@ -136,17 +135,19 @@ footer {
 .project-title {
   text-align: center;
   font-size: 20px;
-  font-weight: 200;
+  font-weight: 300;
+  opacity: 50%;
 }
 .more-projects {
   font-size: 25px;
-  font-weight: 300;
+  font-weight: 200;
 }
 .here-link {
   text-decoration: none;
   color: black;
 }
 .here-link:hover {
+  text-decoration: underline;
   transition: all 200ms ease-in-out;
 }
 /*-----------end of HOMEPAGE----------*/
@@ -155,8 +156,7 @@ footer {
 .contact-sector {
   padding: 45px 0;
 }
-.contact-sector h1 {
-  font-family: var(--body-font-family);
+.contact-sector h2 {
   text-align: center;
   font-size: 50px;
   font-weight: 100;
