@@ -4,118 +4,43 @@
   --heading-font-family: "Nothing You Could Do", cursive;
   --body-font-family: "Poppins", sans-serif;
 }
-
-/*---------------HOMEPAGE--------------*/
-
 body {
   font-family: var(--body-font-family);
   color: black;
 }
 
+/*------------nav-bar---------*/
 .bg-light {
-  background-color: #e6e6e6 !important;
+  background-color: var(--primary-color) !important;
 }
-
 .navbar-brand {
   font-size: 22px;
   opacity: 60%;
 }
-
 .nav-link {
   font-size: 18px;
   margin-left: 15px;
   color: black;
 }
+/*---------end of nav-bar-------*/
 
-.hero {
+/*-----------heading-----------*/
+.header {
   background-color: var(--primary-color);
-  text-align: center;
-  padding: 75px 0;
+  padding: 80px 0;
 }
-
-.hero p {
-  font-size: 36px;
-}
-
-.hero h1 {
+.header h1 {
   font-family: var(--heading-font-family);
-  font-size: 70px;
-}
-
-.hero h2 {
-  font-size: 24px;
-  font-weight: 200;
-  opacity: 50%;
-}
-
-.contact-button {
-  margin-top: 50px;
-}
-
-.primary-button {
-  background-color: var(--secondary-color);
-  font-size: 16px;
-  font-weight: 480;
-  color: white;
-  text-decoration: none;
-  border-radius: 10px;
-  padding: 15px 20px;
-  transition: all 200ms ease-in-out;
-}
-
-.primary-button:hover,
-.contact-icon {
-  color: var(--secondary-color);
-  background-color: white;
-}
-
-.coding-projects-link {
-  font-size: 40px;
-  font-weight: 300;
-  text-decoration: none;
-  color: black;
-}
-
-.coding-projects {
-  margin-bottom: 90px;
-}
-
-.coding-projects-link:hover,
-.here-link:hover {
-  font-style: italic;
-  color: black;
-}
-
-.homepage-images:hover {
-  transform: scale(1.05);
-  transition: all 150ms ease-in-out;
-}
-
-.project-title {
+  font-size: 60px;
   text-align: center;
-  font-size: 20px;
-  font-weight: 200;
 }
+/*--------end of heading-------*/
 
-.more-projects {
-  font-size: 25px;
-  font-weight: 300;
-}
-
-.here-link {
-  text-decoration: none;
-  color: black;
-}
-
-.here-link:hover {
-  transition: all 200ms ease-in-out;
-}
-
+/*-------footer-------*/
 footer {
   background-color: var(--primary-color);
   padding: 15px;
 }
-
 .footer-icons {
   color: white;
   background-color: var(--secondary-color);
@@ -126,46 +51,107 @@ footer {
   padding: 7px 13px;
   transition: all 200ms ease-in-out;
 }
-
 .footer-icons:hover {
   color: var(--secondary-color);
   background-color: white;
 }
-
 .footer-text {
   color: #979797;
   font-size: 14px;
   font-weight: 300;
 }
-
 .open-source {
   text-decoration: none;
   color: #979797;
 }
-
 .open-source:hover {
   color: var(--secondary-color);
 }
+/*--------end of footer-------*/
 
-/*---animation---*/
+/*---------buttons---------*/
+.primary-button {
+  background-color: var(--secondary-color);
+  font-size: 16px;
+  font-weight: 480;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 15px 20px;
+  transition: all 200ms ease-in-out;
+}
+.primary-button:hover,
+.contact-icon {
+  color: var(--secondary-color);
+  background-color: white;
+}
+/*-------animation-------*/
 .navbar-brand:hover,
 .nav-link:hover,
 .hero h1:hover,
 .coding-projects:hover,
-.contact-header h4:hover {
+.header h1:hover {
   animation: pulse 1.5s;
 }
 
-/*-------------CONTACT PAGE-----------*/
-.contact-header {
+/*---------------HOMEPAGE--------------*/
+.hero {
   background-color: var(--primary-color);
-  padding: 80px 0;
-}
-.contact-header h4 {
-  font-family: var(--heading-font-family);
-  font-size: 60px;
   text-align: center;
+  padding: 75px 0;
 }
+.hero p {
+  font-size: 36px;
+}
+.hero h1 {
+  font-family: var(--heading-font-family);
+  font-size: 70px;
+}
+.hero h2 {
+  font-size: 24px;
+  font-weight: 200;
+  opacity: 50%;
+}
+.contact-button {
+  margin-top: 50px;
+}
+.coding-projects-link {
+  font-size: 40px;
+  font-weight: 300;
+  text-decoration: none;
+  color: black;
+}
+.coding-projects {
+  margin-bottom: 90px;
+}
+.coding-projects-link:hover,
+.here-link:hover {
+  font-style: italic;
+  color: black;
+}
+.homepage-images:hover {
+  transform: scale(1.05);
+  transition: all 150ms ease-in-out;
+}
+.project-title {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 200;
+}
+.more-projects {
+  font-size: 25px;
+  font-weight: 300;
+}
+.here-link {
+  text-decoration: none;
+  color: black;
+}
+.here-link:hover {
+  transition: all 200ms ease-in-out;
+}
+/*-----------end of HOMEPAGE----------*/
+
+/*-------------CONTACT PAGE-----------*/
 .contact-sector {
   padding: 45px 0;
 }
@@ -190,6 +176,7 @@ footer {
   color: black;
   opacity: 50%;
 }
+/*----------end of CONTACT PAGE----------*/
 
 /*-----@media queries-----*/
 
