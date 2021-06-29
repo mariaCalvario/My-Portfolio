@@ -64,7 +64,6 @@ footer {
   text-decoration: none;
   color: #979797;
 }
-
 /*--------end of footer-------*/
 
 /*---------buttons---------*/
@@ -82,6 +81,7 @@ footer {
 .contact-icon {
   color: var(--secondary-color);
   background-color: white;
+  border: 1px dashed #979797;
 }
 .secondary-button {
   background-color: white;
@@ -94,6 +94,9 @@ footer {
   border-radius: 10px;
   padding: 15px 20px;
   transition: all 200ms ease-in-out;
+}
+.secondary-button:hover {
+  border: 1px dashed black;
 }
 .secondary-button:hover,
 .open-source:hover {
@@ -144,31 +147,39 @@ footer {
   font-style: italic;
   color: black;
 }
-.homepage-images:hover {
-  transform: scale(1.05);
-  transition: all 150ms ease-in-out;
+.homepage-images:hover,
+.project-images:hover {
+  transform: scale(1.03);
+  transition: all 200ms ease-in-out;
 }
-.project-title {
+.image-title {
   text-align: center;
   font-size: 20px;
   font-weight: 300;
   opacity: 50%;
 }
-.more-projects {
-  font-size: 25px;
-  font-weight: 200;
-}
-.here-link {
-  text-decoration: none;
-  color: black;
-}
-.here-link:hover {
-  text-decoration: underline;
-  transition: all 200ms ease-in-out;
-}
 /*-----------end of HOMEPAGE----------*/
 
-/*-------------CONTACT PAGE-----------*/
+/*-------------PROJECTS page-----------*/
+.project-images {
+  background-color: var(--primary-color);
+  max-width: 450px;
+}
+.project-description {
+  padding: 60px 20px;
+}
+.project-title {
+  font-size: 25px;
+  font-weight: 400;
+}
+.project-paragraph {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 300;
+}
+/*----------end of PROJECTS page--------*/
+
+/*-------------CONTACT page-----------*/
 .contact-sector {
   padding: 45px 0;
 }
@@ -192,7 +203,7 @@ footer {
   color: black;
   opacity: 50%;
 }
-/*----------end of CONTACT PAGE----------*/
+/*----------end of CONTACT page----------*/
 
 /*-----@media queries-----*/
 
