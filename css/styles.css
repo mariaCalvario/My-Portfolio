@@ -64,9 +64,7 @@ footer {
   text-decoration: none;
   color: #979797;
 }
-.open-source:hover {
-  color: var(--secondary-color);
-}
+
 /*--------end of footer-------*/
 
 /*---------buttons---------*/
@@ -84,6 +82,24 @@ footer {
 .contact-icon {
   color: var(--secondary-color);
   background-color: white;
+}
+.secondary-button {
+  background-color: white;
+  font-size: 16px;
+  font-weight: 400;
+  color: black;
+  opacity: 60%;
+  text-decoration: none;
+  border: 1px dashed #979797;
+  border-radius: 10px;
+  padding: 15px 20px;
+  transition: all 200ms ease-in-out;
+}
+.secondary-button:hover,
+.open-source:hover {
+  text-decoration: none;
+  color: black;
+  opacity: 90%;
 }
 /*-------animation-------*/
 .navbar-brand:hover,
