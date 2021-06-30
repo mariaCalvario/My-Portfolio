@@ -161,12 +161,9 @@ footer {
 /*-----------end of HOMEPAGE----------*/
 
 /*-------------PROJECTS page-----------*/
-.project-images {
-  background-color: var(--primary-color);
-  max-width: 450px;
-}
+
 .project-description {
-  padding: 60px;
+  padding: 30px 80px;
 }
 .project-title {
   font-size: 25px;
@@ -176,6 +173,9 @@ footer {
   font-size: 16px;
   line-height: 26px;
   font-weight: 300;
+}
+.project-images {
+  background-color: var(--primary-color);
 }
 /*----------end of PROJECTS page--------*/
 
@@ -207,126 +207,3 @@ footer {
 /*----------end of CONTACT page----------*/
 
 /*-----@media queries-----*/
-
-@media (min-width: 576px) and (max-width: 992px) {
-  .nav-link {
-    font-size: 16px;
-    margin-left: 25px;
-  }
-  .nav-link:hover {
-    animation: none;
-  }
-  .hero p {
-    font-size: 28px;
-  }
-  .hero h1 {
-    font-size: 50px;
-  }
-
-  .hero h2 {
-    font-size: 22px;
-  }
-  .hero {
-    padding: 52px;
-  }
-  .coding-projects-link {
-    font-size: 33px;
-  }
-  .coding-projects {
-    margin-bottom: 45px;
-  }
-  .more-projects {
-    font-size: 22px;
-  }
-  .footer-icons {
-    font-size: 17px;
-  }
-}
-@media (min-width: 320px) and (max-width: 480px) {
-  .navbar-brand {
-    font-size: 20px;
-  }
-  .nav-link {
-    font-size: 14px;
-  }
-  .hero p {
-    font-size: 20px;
-  }
-  .hero h1 {
-    font-size: 40px;
-    line-height: 1;
-  }
-  .hero h2 {
-    font-size: 20px;
-  }
-  .hero {
-    padding: 30px;
-  }
-  .primary-button {
-    font-size: 14px;
-    padding: 12px 15px;
-  }
-  .contact-button {
-    margin-top: 25px;
-  }
-  .coding-projects-link {
-    font-size: 28px;
-  }
-  .coding-projects {
-    margin-bottom: 10px;
-  }
-  .more-projects {
-    font-size: 20px;
-  }
-  .footer-icons {
-    font-size: 16px;
-  }
-
-  footer {
-    padding: 12px;
-  }
-}
-
-@media (max-width: 319px) {
-  .navbar-brand {
-    font-size: 15px;
-  }
-  .nav-link {
-    font-size: 12px;
-  }
-  .hero p {
-    font-size: 15px;
-  }
-  .hero h1 {
-    font-size: 28px;
-    line-height: 1;
-  }
-  .hero h2 {
-    font-size: 16px;
-  }
-  .hero {
-    padding: 30px;
-  }
-  .primary-button {
-    font-size: 11px;
-    padding: 10px 12px;
-  }
-  .contact-button {
-    margin-top: 25px;
-  }
-  .coding-projects-link {
-    font-size: 23px;
-  }
-  .more-projects {
-    font-size: 17px;
-  }
-  .footer-text {
-    display: none;
-  }
-  .footer-icons {
-    font-size: 14px;
-  }
-  footer {
-    padding: 9px;
-  }
-}
