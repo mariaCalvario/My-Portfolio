@@ -15,6 +15,7 @@ body {
 }
 .navbar-brand {
   font-size: 22px;
+  font-weight: 200;
   opacity: 60%;
 }
 .nav-link {
@@ -167,12 +168,12 @@ footer {
 }
 .project-title {
   font-size: 25px;
-  font-weight: 400;
+  font-weight: 300;
 }
 .project-paragraph {
   font-size: 16px;
-  line-height: 26px;
-  font-weight: 300;
+  line-height: 1.6;
+  font-weight: 200;
 }
 .project-images {
   background-color: var(--primary-color);
