@@ -163,7 +163,7 @@ footer {
 /*-------------PROJECTS page-----------*/
 
 .project-description {
-  padding: 30px 80px;
+  padding: 0 60px;
 }
 .project-title {
   font-size: 25px;
@@ -176,6 +176,12 @@ footer {
 }
 .project-images {
   background-color: var(--primary-color);
+}
+.project-division {
+  width: 50%;
+  margin: 0 auto;
+  color: lightgrey;
+  border: 1px solid lightgrey;
 }
 /*----------end of PROJECTS page--------*/
 
