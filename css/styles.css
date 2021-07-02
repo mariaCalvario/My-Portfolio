@@ -22,8 +22,8 @@ body {
   font-size: 18px;
   margin-left: 15px;
   color: black;
+  font-weight: 300;
 }
-/*---------end of nav-bar-------*/
 
 /*-----------heading-----------*/
 .header {
@@ -35,37 +35,6 @@ body {
   font-size: 60px;
   text-align: center;
 }
-/*--------end of heading-------*/
-
-/*-------footer-------*/
-footer {
-  background-color: var(--primary-color);
-  padding: 15px;
-}
-.footer-icons {
-  color: white;
-  background-color: var(--secondary-color);
-  font-size: 22px;
-  text-decoration: none;
-  margin: 0 20px;
-  border-radius: 50%;
-  padding: 7px 13px;
-  transition: all 200ms ease-in-out;
-}
-.footer-icons:hover {
-  color: var(--secondary-color);
-  background-color: white;
-}
-.footer-text {
-  color: #979797;
-  font-size: 14px;
-  font-weight: 300;
-}
-.open-source {
-  text-decoration: none;
-  color: #979797;
-}
-/*--------end of footer-------*/
 
 /*---------buttons---------*/
 .primary-button {
@@ -97,20 +66,14 @@ footer {
   transition: all 200ms ease-in-out;
 }
 .secondary-button:hover {
-  border: 1px dashed black;
+  color: darkgray;
+  border: 1px dashed #979797;
 }
 .secondary-button:hover,
 .open-source:hover {
   text-decoration: none;
   color: black;
   opacity: 90%;
-}
-/*-------animation-------*/
-.navbar-brand:hover,
-.nav-link:hover,
-.hero h1:hover,
-.header h1:hover {
-  animation: pulse 1.5s;
 }
 
 /*---------------HOMEPAGE--------------*/
@@ -211,6 +174,45 @@ footer {
   color: black;
   opacity: 50%;
 }
+
 /*----------end of CONTACT page----------*/
+
+/*-------footer-------*/
+footer {
+  background-color: var(--primary-color);
+  padding: 15px;
+}
+.footer-icons {
+  color: white;
+  background-color: var(--secondary-color);
+  font-size: 22px;
+  text-decoration: none;
+  margin: 0 20px;
+  border-radius: 50%;
+  padding: 7px 13px;
+  transition: all 200ms ease-in-out;
+}
+.footer-icons:hover {
+  color: var(--secondary-color);
+  background-color: white;
+}
+.footer-text {
+  color: #979797;
+  font-size: 14px;
+  font-weight: 300;
+}
+.open-source {
+  text-decoration: none;
+  color: #979797;
+}
+/*--------end of footer-------*/
+
+/*-------animation-------*/
+.navbar-brand:hover,
+.nav-link:hover,
+.hero h1:hover,
+.header h1:hover {
+  animation: pulse 1.5s;
+}
 
 /*-----@media queries-----*/
