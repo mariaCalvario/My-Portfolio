@@ -136,8 +136,10 @@ body {
 }
 .about-paragraph {
   font-size: 17px;
-  font-weight: 100px;
+  font-weight: 200;
+  line-height: 1.7;
 }
+
 .monkey-img {
   background-color: var(--primary-color);
 }
