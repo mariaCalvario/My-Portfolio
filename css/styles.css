@@ -97,16 +97,14 @@ body {
 .contact-button {
   margin-top: 50px;
 }
-.coding-projects-link {
+.coding-projects {
   font-size: 40px;
   font-weight: 200;
   text-decoration: none;
   color: black;
-}
-.coding-projects {
   margin-bottom: 40px;
 }
-.coding-projects-link:hover,
+
 .here-link:hover {
   font-style: italic;
   color: black;
