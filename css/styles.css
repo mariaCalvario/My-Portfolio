@@ -104,7 +104,7 @@ body {
   color: black;
 }
 .coding-projects {
-  margin-bottom: 90px;
+  margin-bottom: 40px;
 }
 .coding-projects-link:hover,
 .here-link:hover {
@@ -133,22 +133,22 @@ body {
   font-weight: 200;
 }
 .about-text {
-  padding: 0 50px;
+  padding-right: 20px;
 }
 .about-paragraph {
-  font-size: 17px;
-  font-weight: 200;
-  line-height: 1.7;
+  line-height: 1.8;
 }
-
 .monkey-img {
   background-color: var(--primary-color);
 }
 
 /*-------------PROJECTS page-----------*/
 
-.project-description {
-  padding: 0 60px;
+.project-description-right {
+  padding-left: 20px;
+}
+.project-description-left {
+  padding-right: 20px;
 }
 .project-title,
 .tools-title,
@@ -156,14 +156,18 @@ body {
   font-size: 25px;
   font-weight: 300;
 }
-.project-paragraph {
+.project-paragraph,
+.about-paragraph {
   font-size: 16px;
-  line-height: 1.6;
   font-weight: 200;
+}
+.project-paragraph {
+  line-height: 1.6;
 }
 .project-images {
   background-color: var(--primary-color);
 }
+
 .project-division {
   width: 50%;
   margin: 0 auto;
@@ -249,3 +253,73 @@ footer {
 }
 
 /*-----@media queries-----*/
+@media (max-width: 991px) {
+  .nav-link {
+    margin-left: 22px;
+  }
+  .navbar-brand:hover,
+  .nav-link:hover {
+    animation: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-brand,
+  .nav-link {
+    font-size: 16px;
+  }
+  .nav-link {
+    margin-left: 22px;
+  }
+  .hero {
+    padding: 40px 0;
+  }
+  .hero p {
+    font-size: 28px;
+  }
+  .hero h1 {
+    font-size: 43px;
+  }
+  .hero h2 {
+    font-size: 22px;
+  }
+  .coding-projects-link {
+    font-size: 32px;
+  }
+
+  .project-description-right {
+    padding-left: 12px;
+    text-align: center;
+  }
+  .project-description-left {
+    padding-right: 12px;
+    text-align: center;
+  }
+  .project-images {
+    display: none;
+  }
+  .logo {
+    max-width: 35px;
+  }
+  .tools-text {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .header {
+    padding: 40px 0;
+  }
+  .header h1 {
+    font-size: 48px;
+  }
+  .contact-section {
+    text-align: center;
+  }
+  .contact-section h2 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 10px;
+  }
+}
